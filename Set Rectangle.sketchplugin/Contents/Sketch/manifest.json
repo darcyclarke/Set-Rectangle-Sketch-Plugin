@@ -1,23 +1,22 @@
 {
-	"name": "Set Rectangle",
-	"description": "A plugin to set rectangle size",
-	"author": "Darcy Clarke",
-	"homepage": "http://github.com/darcyclarke",
-	"version": "1.1",
-	"identifier": "com.darcyclarke.sketch.setrectangle",
-	"compatibleVersion": "3.3.3",
-	"bundleVersion": "0.1",
-	"commands": [
-		 {
+  "name": "Set Rectangle",
+  "description": "A plugin to set rectangle size",
+  "author": "Darcy Clarke",
+  "homepage": "http://github.com/darcyclarke",
+  "version": "1.1",
+  "identifier": "com.darcyclarke.sketch.setrectangle",
+  "compatibleVersion": "3.3.3",
+  "bundleVersion": "0.1",
+  "commands": [
+     {
       "script" : "rectangle.js",
       "handler" : "set",
-      "shortcut" : "cmd r",
+      "shortcut" : "ctrl shift r",
       "name" : "Set Rectangle",
       "identifier" : "setrectangle"
     }
-	],
-	"menu": {
-		"isRoot": true,
+  ],
+  "menu": {
     "items": [
       "setrectangle"
     ]

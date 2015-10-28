@@ -1,4 +1,3 @@
-@import 'lib/utils.js'
 
 // Main set function
 function set ( context ) {
